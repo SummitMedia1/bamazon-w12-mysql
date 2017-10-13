@@ -1,0 +1,29 @@
+{
+  "name": "bamazon-w12-mysql",
+  "version": "1.0.0",
+  "description": "bamazon is a myql database meant to mimic an amazon storefront inventory management system.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "node bamazonCustomer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SummitMedia1/bamazon-w12-mysql.git"
+  },
+  "keywords": [
+    "bamazon",
+    "amazon",
+    "mysql"
+  ],
+  "author": "Summitmedia1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SummitMedia1/bamazon-w12-mysql/issues"
+  },
+  "homepage": "https://github.com/SummitMedia1/bamazon-w12-mysql#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
