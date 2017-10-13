@@ -1,0 +1,55 @@
+Last login: Thu Oct 12 17:14:16 on console
+Mikes-MacBook-Pro:~ mfuchsman$ cd bootcamp/2-homework
+Mikes-MacBook-Pro:2-homework mfuchsman$ git clone https://github.com/SummitMedia1/bamazon-w12-mysql.git
+Mikes-MacBook-Pro:2-homework mfuchsman$ cd bamazon-w12-mysql/
+Mikes-MacBook-Pro:bamazon-w12-mysql mfuchsman$ npm init
+	This utility will walk you through creating a package.json file.
+	It only covers the most common items, and tries to guess sensible defaults.
+Press ^C at any time to quit.
+package name: (bamazon-w12-mysql) 
+version: (1.0.0) 
+description: bamazon is a myql database meant to mimic an amazon storefront inventory management system.
+entry point: (index.js) bamazonCustomer.js
+test command: node bamazonCustomer
+git repository: (https://github.com/SummitMedia1/bamazon-w12-mysql.git) 
+keywords: bamazon, amazon, mysql
+author: Summitmedia1
+license: (ISC) MIT
+About to write to /Users/mfuchsman/Bootcamp/2-Homework/bamazon-w12-mysql/package.json:
+
+{
+  "name": "bamazon-w12-mysql",
+  "version": "1.0.0",
+  "description": "bamazon is a myql database meant to mimic an amazon storefront inventory management system.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "node bamazonCustomer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SummitMedia1/bamazon-w12-mysql.git"
+  },
+  "keywords": [
+    "bamazon",
+    "amazon",
+    "mysql"
+  ],
+  "author": "Summitmedia1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SummitMedia1/bamazon-w12-mysql/issues"
+  },
+  "homepage": "https://github.com/SummitMedia1/bamazon-w12-mysql#readme"
+}
+Is this ok? (yes) 
+Mikes-MacBook-Pro:bamazon-w12-mysql mfuchsman$ npm install mysql --save
+npm notice created a lockfile as package-lock.json. You should commit this file.
++ mysql@2.15.0
+added 11 packages in 5.007s
+Mikes-MacBook-Pro:bamazon-w12-mysql mfuchsman$ npm install inquirer --save
++ inquirer@3.3.0
+added 32 packages in 6.083s
+Mikes-MacBook-Pro:bamazon-w12-mysql mfuchsman$ npm install fs --save
++ fs@0.0.1-security
+added 1 package in 1.677s
+Mikes-MacBook-Pro:bamazon-w12-mysql mfuchsman$ 

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>bamazon</string>
+			<key>host</key>
+			<string>localhost</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSocketConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJyhYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYdJFUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTUFwsYGRobHBxaTlNMb2NhdGlvblxOU1JhbmdlQ291bnRY
+			TlNMZW5ndGgQAIAGEAHSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2Vz
+			Wk5TSW5kZXhTZXSiIiNaTlNJbmRleFNldFhOU09iamVjdNIeHyUm
+			XE5TRGljdGlvbmFyeaIlI18QD05TS2V5ZWRBcmNoaXZlctEpKlRk
+			YXRhgAEACAARABoAIwAtADIANwBAAEYATQBVAGAAZwBqAGwAbgBx
+			AHMAdQB3AHwAgQChAKoAtQDCAMsAzQDPANEA1gDhAOoA9QD4AQMB
+			DAERAR4BIQEzATYBOwAAAAAAAAIBAAAAAAAAACsAAAAAAAAAAAAA
+			AAAAAAE9
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {1106, 639}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>table</key>
+			<string>bamazon</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>174</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>`Item_id` INTEGER(11) AUTO_INCREMENT NOT NULL,
+  `Product_Name` VARCHAR(100) NOT</string>
+		<string>`Item_id` INTEGER(11) AUTO_INCREMENT NOT NULL,
+  `Product_Name` VARCHAR(100) NOT NULL,
+  `Department_Name` VARCHAR(50) NOT NULL,
+  `Unit_price` INTEGER(7, 2) NOT NULL,
+  `Retail_price` INTEGER(7, 2) NOT NULL,
+  `Stock_quantity` INTEGER(7) NOT NULL,</string>
+		<string>`Stock_quantity` INTEGER(7) NOT NULL,</string>
+		<string>CREATE TABLE `bamazon` (
+  `Item_id` INTEGER(11) AUTO_INCREMENT NOT NULL,
+  `Product_Name` VARCHAR(100) NOT NULL,
+  `Department_Name` VARCHAR(50) NOT NULL,
+  `Unit_price` INTEGER(7,2) NOT NULL,
+  `Retail_price` INTEGER(7,2) NOT NULL,
+  `Stock_quantity` INTEGER(7) NOT NULL,
+  PRIMARY KEY (`Item_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</string>
+		<string>`Item_id` int(11) AUTO_INCREMENT NOT NULL,</string>
+		<string>CREATE TABLE `bamazon` (
+  `Item_id` int(4,2) AUTO_INCREMENT NOT NULL,
+  `Product_Name` varchar(100) NOT NULL,
+  `Department_Name` varchar(50) NOT NULL,
+  `Unit_price` int(7,2) NOT NULL,
+  `Retail_price` int(7,2) NOT NULL,
+  `Stock_quantity` int(7) NOT NULL,
+  PRIMARY KEY (`Item_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</string>
+		<string>CREATE TABLE `bamazon` (
+  `Item_id` int(4,2) NOT NULL AUTO_INCREMENT,
+  `Product_Name` varchar(100) NOT NULL,
+  `Department_Name` varchar(50) NOT NULL,
+  `Unit_price` int(7,2) NOT NULL,
+  `Retail_price` int(7,2) NOT NULL,
+  `Stock_quantity` int(7) NOT NULL,
+  PRIMARY KEY (`Item_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</string>
+		<string>CREATE TABLE `bamazon` (
+  `Item_id` int(4,2) NOT NULL AUTO_INCREMENT,
+  `Product_Name` varchar(100) NOT NULL DEFAULT '',
+  `Department_Name` varchar(50) NOT NULL DEFAULT '',
+  `Unit_price` int(7,2) NOT NULL,
+  `Retail_price` int(7,2) NOT NULL,
+  `Stock_quantity` int(7,2) NOT NULL,
+  PRIMARY KEY (`Item_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</string>
+		<string>CREATE TABLE `bamazon` (
+  `Item_id` int(2,4,2) NOT NULL AUTO_INCREMENT,
+  `Product_Name` varchar(100) NOT NULL DEFAULT '',
+  `Department_Name` varchar(50) NOT NULL DEFAULT '',
+  `Unit_price` int(7,2) NOT NULL,
+  `Retail_price` int(7,2) NOT NULL,
+  `Stock_quantity` int(7,2) NOT NULL,
+  PRIMARY KEY (`Item_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</string>
+		<string>SELECT artist, COUNT(*)
+FROM top5000
+GROUP BY artist
+HAVING COUNT(*) &gt; 1</string>
+		<string>select * from top_albums</string>
+		<string>SELECT * FROM top5000</string>
+		<string>DROP DATABASE IF EXISTS top_songsDB;
+CREATE database top_songsDB;
+USE top_songsDB;
+CREATE TABLE top5000 (
+  position INT NOT NULL,
+  artist VARCHAR(100) NULL,
+  song VARCHAR(100) NULL,
+  year INT NULL,
+  raw_total DECIMAL(10,4) NULL,
+  raw_usa DECIMAL(10,4) NULL,
+  raw_uk DECIMAL(10,4) NULL,
+  raw_eur DECIMAL(10,4) NULL,
+  raw_row DECIMAL(10,4) NULL,
+  PRIMARY KEY (position)
+);
+CREATE TABLE top_albums (
+  position INT NOT NULL,
+  artist VARCHAR(100) NULL,
+  album VARCHAR(100) NULL,
+  year INT NULL,
+  raw_total DECIMAL(10,4) NULL,
+  raw_usa DECIMAL(10,4) NULL,
+  raw_uk DECIMAL(10,4) NULL,
+  raw_eur DECIMAL(10,4) NULL,
+  raw_row DECIMAL(10,4) NULL,
+  PRIMARY KEY (position)
+)</string>
+		<string>drop database if exists boston
+create database boston</string>
+		<string>SELECT SIN(PI()/4), (4+1)*5</string>
+		<string>SELECT VERSION(), CURRENT_DATE</string>
+		<string>mysql&gt; SELECT VERSION(), CURRENT_DATE</string>
+		<string>DROP DATABASE IF EXISTS ice_creamDB;
+CREATE DATABASE ice_creamDB;
+USE ice_creamDB;
+CREATE TABLE products (
+  id INT NOT NULL AUTO_INCREMENT,
+  flavor VARCHAR(45) NULL,
+  price DECIMAL(10,2) NULL,
+  quantity INT NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO products (flavor, price, quantity)
+VALUES ("vanilla", 2.50, 100);
+INSERT INTO products (flavor, price, quantity)
+VALUES ("chocolate", 3.10, 120);
+INSERT INTO products (flavor, price, quantity)
+VALUES ("strawberry", 3.25, 75);
+-- ### Alternative way to insert more than one row
+-- INSERT INTO products (flavor, price, quantity)
+-- VALUES ("vanilla", 2.50, 100), ("chocolate", 3.10, 120), ("strawberry", 3.25, 75);</string>
+		<string>-- ### Alternative way to insert more than one row
+-- INSERT INTO products (flavor, price, quantity)
+-- VALUES ("vanilla", 2.50, 100), ("chocolate", 3.10, 120), ("strawberry", 3.25, 75);</string>
+		<string>-- Drops the animals_db if it exists currently --
+DROP DATABASE IF EXISTS animals_db;
+-- Creates the "animals_db" database --
+CREATE DATABASE animals_db;
+-- Makes it so all of the following code will affect animals_db --
+USE animals_db;
+-- Creates the table "people" within animals_db --
+CREATE TABLE people (
+  -- Creates a numeric column called "id" which will automatically increment its default value as we create new rows --
+  id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  -- Makes a string column called "name" which cannot contain null --
+  name VARCHAR(30) NOT NULL,
+  -- Makes a boolean column called "has_pet" which cannot contain null --
+  has_pet BOOLEAN NOT NULL,
+  -- Makes a sting column called "pet_name" --
+  pet_name VARCHAR(30),
+  -- Makes an numeric column called "pet_age" --
+  pet_age INTEGER(10),
+  -- Sets id as this table's primary key which means all data contained within it will be unique --
+  PRIMARY KEY (id)
+);
+-- Creates new rows containing data in all named columns --
+INSERT INTO people (name, has_pet, pet_name, pet_age)
+VALUES ("Ahmed", true, "Rockington", 100);
+INSERT INTO people (name, has_pet, pet_name, pet_age)
+VALUES ("Ahmed", true, "Rockington", 100);
+INSERT INTO people (name, has_pet, pet_name, pet_age)
+VALUES ("Jacob",true,"Misty",10);
+INSERT INTO people (name, has_pet)
+VALUES ("Peter", false);
+-- Updates the row where the column name is peter --
+UPDATE people
+SET has_pet = true, pet_name = "Franklin", pet_age = 2
+WHERE id = 4;
+SELECT * FROM people</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.6.35</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
